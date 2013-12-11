@@ -20,8 +20,8 @@ my $usage = "USAGE:\n"
 ."Takes:\n"
 ."\t--file=<name of database file>\n"
 ."\t--from=<URL to search for> (optional)\n"
-."\t--to=<URL to replace with> (optional)\n\n"
-."\t--strip_db_create  remove the database CREATE and USE lines (optional)\n\n"
+."\t--to=<URL to replace with> (optional)\n"
+."\t--strip_db_create  remove the database CREATE and USE lines (optional)\n"
 ."\t--gzip  compress the fixed file for speedy uploads (optional)\n\n"
 ."Note: if either of \n\t--to\n or \n\t--from\n are supplied, they both must be.\n\n";
 
